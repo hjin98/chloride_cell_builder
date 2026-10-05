@@ -1,0 +1,32 @@
+=== Mixed group-I/group-II chloride initial melt cell ===
+Input mode                  : cation mole fractions rounded to integer cation counts
+Template cells nx ny nz     : 3 3 3
+Cation sites N              : 108
+Chloride ions N_Cl          : 108
+Atoms total                 : 216
+Net ionic charge            : +0.0 e
+Target temperature          : 1073.150000 K  (800.000000 C)
+Cation counts               : Li:63,K:45
+Achieved cation fractions   : Li:0.583333333333,K:0.416666666667
+Equilibrium molar volume Vm0: 37.6059422756 cm^3/mol-cation
+Mixture molar mass          : 55.7928750000 g/mol-cation-components
+Equilibrium density rho0    : 1.4836185885 g/cm^3
+Direct active-binary rho0   : 1.4836185885 g/cm^3 (LiCl-KCl)
+Hydrostatic volume strain   : +0.0000000000 (+0.000000%)
+Volume scale factor         : 1.0000000000
+Isotropic length factor     : 1.0000000000
+Strained molar volume Vm    : 37.6059422756 cm^3/mol-cation
+Strained density rho        : 1.4836185885 g/cm^3
+Equilibrium cell volume     : 6744.1827211123 A^3
+Total cell volume           : 6744.1827211123 A^3
+Equivalent template a       : 6.2977950226 A
+Supercell lengths           : 18.8933850679 18.8933850679 18.8933850679 A
+Excess-volume terms         : legacy Li/Na/K pairwise/Kohler compatibility model on; all other pairs ideal
+Template topology           : legacy rocksalt
+LAMMPS atom style           : atomic
+LAMMPS input reminder       : use 'atom_style atomic' before read_data
+WARNING: T=1073.15 K is outside the Janz/NIST pure-LiCl density range [880, 1070] K; using the legacy pure-component correlation as an extrapolation.
+Written files:
+  examples/LiClKCl_eutectic_3x3x3_800C.POSCAR
+  examples/LiClKCl_eutectic_3x3x3_800C.cif
+  examples/LiClKCl_eutectic_3x3x3_800C.lammps.data

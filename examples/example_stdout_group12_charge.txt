@@ -1,0 +1,31 @@
+=== Mixed group-I/group-II chloride initial melt cell ===
+Input mode                  : explicit cation counts
+Template cells nx ny nz     : 1 1 1
+Cation sites N              : 4
+Chloride ions N_Cl          : 6
+Atoms total                 : 10
+Net ionic charge            : +0.0 e
+Target temperature          : 1090.000000 K  (816.850000 C)
+Cation counts               : Li:1,Cs:1,Mg:1,Ca:1
+Achieved cation fractions   : Li:0.250000000000,Cs:0.250000000000,Mg:0.250000000000,Ca:0.250000000000
+Equilibrium molar volume Vm0: 51.4921483075 cm^3/mol-cation
+Mixture molar mass          : 104.2368629900 g/mol-cation-components
+Equilibrium density rho0    : 2.0243253858 g/cm^3
+Hydrostatic volume strain   : +0.0000000000 (+0.000000%)
+Volume scale factor         : 1.0000000000
+Isotropic length factor     : 1.0000000000
+Strained molar volume Vm    : 51.4921483075 cm^3/mol-cation
+Strained density rho        : 2.0243253858 g/cm^3
+Equilibrium cell volume     : 342.0188956693 A^3
+Total cell volume           : 342.0188956693 A^3
+Equivalent template a       : 6.9933194472 A
+Supercell lengths           : 6.9933194472 6.9933194472 6.9933194472 A
+Excess-volume terms         : legacy Li/Na/K pairwise/Kohler compatibility model on; all other pairs ideal
+Template topology           : rocksalt base + auxiliary Cl sites required by +2 cations
+LAMMPS atom style           : charge
+LAMMPS input reminder       : use 'atom_style charge' before read_data
+WARNING: T=1090 K is outside the Janz/NIST pure-LiCl density range [880, 1070] K; using the legacy pure-component correlation as an extrapolation.
+Written files:
+  examples/LiCsMgCa_group12_1x1x1_1090K.POSCAR
+  examples/LiCsMgCa_group12_1x1x1_1090K.cif
+  examples/LiCsMgCa_group12_1x1x1_1090K.lammps.data
